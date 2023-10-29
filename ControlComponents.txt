@@ -1,0 +1,6 @@
+-Text Input
+-Button(Submit,normal,star)
+-CheckBox
+-Number Input
+
+-Toggle Switch(Mark as Done)

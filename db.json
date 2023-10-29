@@ -1,0 +1,169 @@
+{
+  "customerRating": [
+    {
+      "starRating": 3,
+      "createdAt": "2023-03-15T08:35:00.438Z",
+      "id": 3
+    },
+    {
+      "starRating": 1,
+      "createdAt": "2023-03-15T08:45:55.044Z",
+      "id": 4
+    },
+    {
+      "starRating": 3,
+      "createdAt": "2023-03-15T08:47:13.589Z",
+      "id": 5
+    },
+    {
+      "starRating": 3,
+      "createdAt": "2023-03-15T08:48:26.151Z",
+      "id": 6
+    },
+    {
+      "starRating": 3,
+      "createdAt": "2023-03-15T08:48:49.361Z",
+      "id": 7
+    },
+    {
+      "starRating": 2,
+      "createdAt": "2023-03-15T08:48:59.926Z",
+      "id": 8
+    },
+    {
+      "starRating": 3,
+      "createdAt": "2023-03-15T08:49:59.259Z",
+      "id": 9
+    },
+    {
+      "starRating": 4,
+      "createdAt": "2023-03-15T08:50:03.161Z",
+      "id": 10
+    },
+    {
+      "starRating": 3,
+      "createdAt": "2023-03-15T08:50:09.570Z",
+      "id": 11
+    },
+    {
+      "starRating": 3,
+      "createdAt": "2023-03-15T08:50:33.284Z",
+      "id": 12
+    },
+    {
+      "starRating": 4,
+      "createdAt": "2023-03-15T09:11:13.951Z",
+      "id": 13
+    },
+    {
+      "starRating": 2,
+      "createdAt": "2023-03-15T10:23:19.805Z",
+      "id": 14
+    },
+    {
+      "starRating": 3,
+      "createdAt": "2023-03-15T10:23:28.616Z",
+      "id": 15
+    },
+    {
+      "starRating": 2,
+      "createdAt": "2023-03-16T05:17:28.257Z",
+      "id": 16
+    },
+    {
+      "starRating": 2,
+      "createdAt": "2023-03-16T12:24:17.536Z",
+      "id": 17
+    },
+    {
+      "starRating": 2,
+      "createdAt": "2023-03-23T10:13:51.872Z",
+      "id": 18
+    },
+    {
+      "starRating": 3,
+      "createdAt": "2023-03-23T10:14:36.203Z",
+      "id": 19
+    },
+    {
+      "starRating": 4,
+      "createdAt": "2023-03-23T10:14:47.426Z",
+      "id": 20
+    },
+    {
+      "starRating": 2,
+      "createdAt": "2023-03-23T10:18:42.546Z",
+      "id": 21
+    },
+    {
+      "starRating": 3,
+      "createdAt": "2023-03-23T10:18:45.555Z",
+      "id": 22
+    },
+    {
+      "starRating": 2,
+      "createdAt": "2023-03-23T10:18:48.884Z",
+      "id": 23
+    },
+    {
+      "starRating": 4,
+      "createdAt": "2023-03-23T10:19:02.750Z",
+      "id": 24
+    },
+    {
+      "starRating": 4,
+      "createdAt": "2023-03-23T10:19:06.924Z",
+      "id": 25
+    },
+    {
+      "starRating": 5,
+      "createdAt": "2023-08-21T05:53:52.274Z",
+      "id": 26
+    },
+    {
+      "starRating": 3,
+      "createdAt": "2023-08-21T05:53:56.739Z",
+      "id": 27
+    },
+    {
+      "starRating": 3,
+      "createdAt": "2023-08-21T05:53:58.339Z",
+      "id": 28
+    }
+  ],
+  "customerSummary": [
+    {
+      "0": {
+        "id": 0,
+        "starIndex": 0,
+        "clickCount": 1,
+        "clickPercent": 4
+      },
+      "1": {
+        "id": 1,
+        "starIndex": 1,
+        "clickCount": 7,
+        "clickPercent": 27
+      },
+      "2": {
+        "id": 2,
+        "starIndex": 2,
+        "clickCount": 12,
+        "clickPercent": 46
+      },
+      "3": {
+        "id": 3,
+        "starIndex": 3,
+        "clickCount": 5,
+        "clickPercent": 19
+      },
+      "4": {
+        "id": 4,
+        "starIndex": 4,
+        "clickCount": 1,
+        "clickPercent": 4
+      },
+      "id": 0
+    }
+  ]
+}
