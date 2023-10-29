@@ -1,0 +1,37 @@
+.homePageContent {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin-bottom: 10px;
+}
+.mainHeader {
+  display: flex;
+  flex: 1;
+  box-shadow: 0px 4px 16px #bbb;
+}
+.mainHeaderContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+}
+.homePageButtons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.homePageButtons a,
+.homePageButtons link {
+  width: fit-content;
+}
+.homePageButtons button {
+  border: none;
+  background-color: #61dafb;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: cursive;
+}
+.homePageButtons button:hover {
+  background-color: #80daf3;
+}
