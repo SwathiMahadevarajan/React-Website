@@ -1,0 +1,39 @@
+.personalInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputLabel span {
+  width: fit-content;
+  font-weight: 500;
+  font-size: smaller;
+}
+.inputLabel {
+  display: flex;
+  justify-content: space-between;
+}
+.errorMessage {
+  color: hsl(354, 84%, 57%);
+  /* display: none; */
+  float: right;
+}
+.noerror {
+  display: none;
+}
+
+label:has(.errorMessage) input:invalid {
+  border: 1px solid hsl(354, 84%, 57%);
+}
+
+input {
+  border: 1px solid hsl(229, 24%, 87%);
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+}
+input:focus {
+  border: 1px solid hsl(243, 100%, 62%);
+}
+
+@media screen and (max-width: 768px) {
+}

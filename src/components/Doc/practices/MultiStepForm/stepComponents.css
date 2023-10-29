@@ -1,0 +1,38 @@
+.progressStep {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stepIndex {
+  border: 1px solid white;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  width: 28px;
+  height: 25px;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 5px;
+}
+.stepIndex.current {
+  color: hsl(243, 100%, 62%);
+  background-color: hsl(206, 94%, 87%);
+}
+.stepName {
+  display: flex;
+  flex-direction: column;
+  font-size: x-small;
+}
+
+@media screen and (max-width: 768px) {
+  .progressStep {
+    width: fit-content;
+  }
+  .stepIndex {
+    width: 25px;
+  }
+  .stepName {
+    display: none;
+  }
+}

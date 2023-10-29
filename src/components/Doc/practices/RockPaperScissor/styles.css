@@ -1,0 +1,45 @@
+.rock-paper-scissor-game {
+  height: 70vh;
+  background-color: rgb(31, 32, 91);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4% 15% 0 15%;
+}
+.scoreBoard {
+  border: 2px solid rgba(255, 255, 255, 0.594);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  .title {
+    font-size: 1.5rem;
+    line-height: 0.9;
+    color: rgba(255, 255, 255, 0.849);
+  }
+  .scoreCard {
+    font-size: 0.8rem;
+    width: fit-content;
+    padding: 2px 20px;
+    border-radius: 4px;
+    color: rgb(31, 32, 91);
+    background-color: rgba(255, 255, 255, 0.849);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .score {
+      width: fit-content;
+      font-size: 2rem;
+    }
+  }
+}
+.gameElements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 20px solid transparent;
+}

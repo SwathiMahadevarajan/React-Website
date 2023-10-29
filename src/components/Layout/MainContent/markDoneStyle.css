@@ -1,0 +1,43 @@
+.markDone {
+  transform: translateX(50%);
+  position: fixed;
+}
+.checkbox {
+  display: none;
+  z-index: 10;
+}
+.checkboxToggle {
+  font-family: cursive;
+}
+label {
+  cursor: pointer;
+}
+.checkboxToggle {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  background-color: #e6e6eb;
+  border-radius: 30px;
+  color: #20232a;
+}
+.checkboxToggle::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #20232a;
+  transition: all 0.5s;
+}
+.checkbox:checked + .checkboxToggle::after {
+  left: 25px;
+}
+.checkbox:checked + .checkboxToggle {
+  background-color: #61dafb;
+}
+@media screen and (max-width: 768px) {
+  .markDone {
+    left: 20px;
+  }
+}

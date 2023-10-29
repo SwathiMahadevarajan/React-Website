@@ -1,0 +1,30 @@
+.contents::-webkit-scrollbar {
+  display: none;
+}
+.contents {
+  overflow-y: scroll;
+  width: 700px;
+  margin: 30px auto;
+  align-items: center;
+}
+
+#checkBox {
+  width: fit-content;
+}
+.desc {
+  margin: 30px 0px;
+}
+.desc p + p,
+.desc + p {
+  padding: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .contents {
+    width: fit-content;
+    margin: 23px 20px;
+    transform: translate(25%, 1%);
+  }
+  .desc {
+    z-index: 1;
+  }
+}

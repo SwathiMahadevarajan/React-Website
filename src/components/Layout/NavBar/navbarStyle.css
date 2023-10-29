@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #20232a;
+  top: 0;
+  position: sticky;
+  height: 64px;
+  padding-left: 11px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+
+#logo {
+  height: 30px;
+  width: 30px;
+}
+.navbar span {
+  color: #61dafb;
+  font-size: large;
+}
+.hamburger {
+  cursor: pointer;
+  color: white;
+  z-index: 2;
+  max-width: 35px;
+  height: 35px;
+  padding-left: 5px;
+}
+.hamburger:hover {
+  background-color: #c7bdbd29;
+  border-radius: 50%;
+  padding-left: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    z-index: 1;
+  }
+}

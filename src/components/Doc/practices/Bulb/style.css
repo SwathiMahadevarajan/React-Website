@@ -1,0 +1,76 @@
+.environment {
+  min-height: 300px;
+  position: absolute;
+  width: 100px;
+  left: 35%;
+}
+.bulb {
+  border-radius: 50%;
+  height: 90px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.filament {
+  height: 35px;
+  width: 20px;
+  position: relative;
+  top: 60%;
+  left: 41%;
+  border: 0.5px solid rgba(128, 128, 128, 0.5);
+  border-radius: 5px 5px 0 0;
+}
+.light .filament {
+  border: 0.5px solid rgb(176, 79, 0);
+}
+.light .glass-effect {
+  position: fixed;
+  top: 40%;
+  left: 39.5%;
+  width: 35px;
+  height: 22px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 18%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+}
+.bulb-bottom {
+  height: 40px;
+  width: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  left: 35%;
+  top: -2px;
+  border-top: none;
+  position: relative;
+  background: rgba(9, 9, 9, 0.5);
+  border-radius: 0 0 10px 10px;
+}
+.bulb-bottom .glass-effect {
+  width: 15px;
+  height: 7px;
+  left: 50%;
+  top: 30%;
+  position: relative;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+}
+.light {
+  box-shadow: 0 0 80px 20px rgb(255, 64, 0);
+  background-color: rgb(255, 64, 0);
+}
+.wire {
+  cursor: pointer;
+  width: 2px;
+  height: 150px;
+  background-color: rgba(128, 128, 128, 0.5);
+  margin: -3px auto;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: fit-content;
+}

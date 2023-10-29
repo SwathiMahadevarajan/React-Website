@@ -1,0 +1,64 @@
+.menu.Open {
+  left: 0px;
+}
+
+.menu {
+  display: flex;
+  width: 30%;
+  background-color: #f7f7f7;
+  top: 0px;
+  left: -900px;
+  position: fixed;
+  overflow: auto;
+  height: 100%;
+  z-index: 1;
+  box-shadow: 0px 6px 12px #5e644a;
+  transition: all 0.8s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  padding-inline-start: 0px;
+  list-style: none;
+}
+
+.nav {
+  overflow-y: scroll;
+  height: calc(100vh - 64px);
+}
+
+.nav a:hover {
+  color: grey;
+  cursor: pointer;
+}
+.nav li {
+  padding: 0px 16px;
+  margin-top: 10px;
+}
+.menu::-webkit-scrollbar,
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
+.active {
+  color: black;
+  font-weight: bold;
+  border-right: 4px solid #61dafb;
+}
+.completed {
+  color: rgb(126, 126, 126);
+}
+.active .completed {
+  color: black;
+}
+@media only screen and (max-width: 768px) {
+  .menu.Open {
+    width: 100vw;
+    background-color: #f7f7f7;
+    border-right: 1px solid #bbb;
+  }
+}

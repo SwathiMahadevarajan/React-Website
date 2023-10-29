@@ -1,0 +1,35 @@
+.carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.carouselCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  width: 45%;
+  height: max-content;
+  box-shadow: 0px 4px 16px #bbb;
+}
+.carouselCard div {
+  width: fit-content;
+}
+.carouselCard img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.carousel button {
+  border: none;
+  width: fit-content;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: medium;
+}
+.carousel button:hover {
+  background-color: #61dafb;
+  color: white;
+}

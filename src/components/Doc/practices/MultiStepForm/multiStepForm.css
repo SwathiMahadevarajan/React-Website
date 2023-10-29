@@ -1,0 +1,139 @@
+.formContent {
+  display: flex;
+  box-shadow: 1px 4px 10px hsl(240, 43%, 86%);
+  border-radius: 10px;
+  width: 650px;
+  height: 400px;
+  padding: 15px;
+}
+
+.formProgress {
+  background: url("assets/icons/bg-sidebar-desktop.svg");
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  height: 370px;
+  padding-left: 15px;
+  padding-top: 15px;
+  gap: 15px;
+}
+
+.formComponent {
+  padding: 15px 65px;
+  height: max-content;
+  position: relative;
+  height: 370px;
+}
+
+#desc {
+  font-size: smaller;
+  color: hsl(231, 11%, 63%);
+}
+
+#backButton {
+  width: fit-content;
+  border: none;
+  background: transparent;
+  color: hsl(231, 11%, 63%);
+  cursor: pointer;
+  position: absolute;
+  left: 65px;
+  bottom: 10px;
+}
+
+#backButton:hover {
+  color: hsl(213, 96%, 18%);
+  font-weight: 500;
+}
+
+#nextButton {
+  position: absolute;
+  bottom: 5px;
+  right: 65px;
+  width: fit-content;
+  border: none;
+  color: white;
+  background-color: hsl(213, 96%, 18%);
+  border-radius: 5px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.confirmButton {
+  position: absolute;
+  bottom: 10px;
+  right: 65px;
+  width: fit-content;
+  background-color: hsl(243, 100%, 62%);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+}
+.confirmButton:hover {
+  background-color: hsla(243, 100%, 62%, 0.6);
+}
+
+label {
+  font-size: small;
+}
+
+@media screen and (max-width: 768px) {
+  .formContent {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    height: 500px;
+    padding: 0;
+    background-color: hsl(217, 100%, 97%);
+  }
+  .formProgress {
+    background: url("assets/icons/bg-sidebar-mobile.svg");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: contain;
+    width: 285px;
+    height: 131px;
+    padding: 0;
+  }
+
+  .formComponent {
+    height: auto;
+    position: absolute;
+    left: 2px;
+    top: 140px;
+    width: 260px;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 1px 4px 10px hsl(242, 45%, 86%);
+  }
+
+  .buttonGroups {
+    position: fixed;
+    bottom: 30px;
+    right: 8px;
+    width: 285px;
+    height: 50px;
+    background-color: white;
+  }
+  #nextButton {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    padding: 5px 15px;
+  }
+  #backButton {
+    position: absolute;
+    left: 20px;
+    padding: 5px 15px;
+  }
+  .confirmButton {
+    position: absolute;
+    right: 20px;
+    padding: 5px 15px;
+  }
+}

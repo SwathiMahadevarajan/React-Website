@@ -1,0 +1,46 @@
+.addOnPicker {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.addOn {
+  display: flex;
+  border: 1px solid hsl(229, 24%, 87%);
+  align-items: center;
+  border-radius: 5px;
+  padding: 15px;
+  gap: 15px;
+}
+.addOn:hover,
+.addOn:has(:checked) {
+  border: 1px solid hsl(213, 96%, 18%);
+  background-color: hsl(231, 100%, 99%);
+}
+
+input[type="checkbox"] {
+  width: fit-content;
+  outline: none;
+  border: 1px solid hsl(229, 24%, 87%);
+  accent-color: hsl(243, 100%, 62%);
+}
+
+.addOnPicker p,
+.addOnPicker span {
+  width: fit-content;
+  font-size: smaller;
+}
+
+@media screen and (max-width: 768px) {
+  .addOn {
+    display: flex;
+    gap: 7px;
+    padding: 5px;
+    height: 50px;
+    align-items: center;
+  }
+  .addOn span {
+    white-space: nowrap;
+    font-size: x-small;
+  }
+}

@@ -1,0 +1,84 @@
+.formSummary {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  background-color: hsl(217, 100%, 97%);
+  border-radius: 10px;
+  gap: 15px;
+  padding: 15px;
+}
+.planDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.planTitle {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+.planTitleSpan {
+  color: hsl(213, 96%, 18%);
+  font-weight: 700;
+}
+.planPrice {
+  width: fit-content;
+  font-weight: 700;
+}
+.changePlan {
+  width: fit-content;
+  border: none;
+  text-decoration: underline;
+  color: hsl(243, 100%, 62%);
+  background-color: transparent;
+  padding: 0px;
+  cursor: pointer;
+}
+.addOnsChosen {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.addOnChosen {
+  display: flex;
+  justify-content: space-between;
+}
+.addOnTitle {
+  width: fit-content;
+  color: hsl(231, 11%, 63%);
+}
+.addOnPrice {
+  width: fit-content;
+  color: hsl(213, 96%, 18%);
+}
+.totalPrice {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 15px;
+  align-items: center;
+}
+.totalPriceLabel {
+  font-size: small;
+  color: hsl(231, 11%, 63%);
+  width: fit-content;
+}
+.totalPriceValue {
+  font-size: medium;
+  color: hsl(243, 100%, 62%);
+  font-weight: 700;
+  width: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  .formSummary {
+    font-size: x-small;
+  }
+  .formSummary button {
+    font-size: small;
+  }
+  .totalPriceValue {
+    font-size: small;
+  }
+}

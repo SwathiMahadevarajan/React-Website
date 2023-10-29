@@ -1,0 +1,19 @@
+.thankYouNote {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  gap: 10px;
+}
+.thankYouDescription {
+  font-size: small;
+  color: hsl(231, 11%, 63%);
+}
+@media screen and (max-width: 768px) {
+  .thankYouNote {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+}

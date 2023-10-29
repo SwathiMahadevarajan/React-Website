@@ -1,0 +1,21 @@
+.toggle {
+  display: flex;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.toggle svg {
+  width: 24px;
+  height: 24px;
+  background-color: #08070738;
+  border-radius: 50%;
+  padding: 2px;
+}
+.open {
+  transform: rotateX(180deg);
+}

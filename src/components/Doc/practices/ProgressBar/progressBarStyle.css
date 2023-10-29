@@ -1,0 +1,18 @@
+.progressCont {
+  width: 300px;
+  height: 16px;
+  background: #f5f8ff;
+  border-radius: 18px;
+}
+
+#progressBar {
+  height: 16px;
+  background: #ffcc48;
+  box-shadow: 0px 4px 10px rgba(255, 204, 72, 0.53);
+  border-radius: 18px;
+  width: 0%;
+}
+input[type="number"] {
+  width: fit-content;
+  margin-bottom: 15px;
+}

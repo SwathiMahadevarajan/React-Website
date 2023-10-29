@@ -1,0 +1,179 @@
+.outerEnvironment {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.outerArea {
+  width: 200px;
+  height: 375px;
+  background-color: #a0522d;
+  margin-top: 20px;
+  margin-left: 30%;
+  border-radius: 40px;
+}
+.clock {
+  width: 150px;
+  height: 150px;
+  background-color: #f5deb3;
+  margin-left: 20px;
+  margin-top: 25px;
+  top: 15px;
+  border-radius: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.whiteArea {
+  width: 190px;
+  height: 365px;
+  background-color: #fff;
+  margin-left: 5px;
+  border-radius: 40px;
+  position: relative;
+  top: -20px;
+}
+.marking {
+  width: 3px;
+  height: 100%;
+  background-color: grey;
+  position: absolute;
+  left: 50%;
+}
+.clock::after {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.clock::before,
+.clock::after,
+.clock .marking {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: black;
+  z-index: 0;
+  left: 50%;
+}
+
+.innerClock {
+  position: absolute;
+  top: 7%;
+  left: 7%;
+  width: 87%;
+  height: 87%;
+  background: #f5deb3;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  z-index: 1;
+}
+.innerClock::before {
+  content: "";
+  position: absolute;
+  top: 46%;
+  border-radius: 18px;
+  left: 46%;
+  width: 12px;
+  height: 12px;
+  background: #a0522d;
+  z-index: 11;
+}
+.clock .marking-one {
+  transform: rotate(30deg);
+  background: grey;
+  width: 1px;
+}
+.clock .marking-two {
+  transform: rotate(60deg);
+  background: grey;
+  width: 1px;
+}
+
+.clock .marking-three {
+  transform: rotate(120deg);
+  background: grey;
+  width: 1px;
+}
+.clock .marking-four {
+  transform: rotate(150deg);
+  background: grey;
+  width: 1px;
+}
+.hand {
+  width: 50%;
+  right: 49%;
+  height: 6px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  border-radius: 6px;
+  transform-origin: 100%;
+  /* transform: rotate(90deg); */
+  /* transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); */
+}
+.hand.hour-hand {
+  width: 30%;
+  z-index: 3;
+  background: white;
+}
+.hand.minute-hand {
+  height: 3px;
+  z-index: 10;
+  width: 40%;
+}
+.digital-clock {
+  background-color: black;
+  color: white;
+  height: 40px;
+  position: relative;
+  top: 7%;
+  width: 70%;
+  left: 15%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 7px;
+}
+.clock-bottom {
+  position: relative;
+  background-color: #a0522d;
+  height: 125px;
+  width: 70%;
+  left: 15%;
+  top: 10%;
+  border-radius: 10px;
+}
+.pendulum {
+  position: absolute;
+  left: 48%;
+  width: 5px;
+  height: 100px;
+  background: black;
+  border-radius: 10px;
+  transform-origin: 50% 0%;
+  animation: pendulumovement 1s linear infinite alternate-reverse;
+}
+@keyframes pendulumovement {
+  0% {
+    transform: rotate(-30deg);
+  }
+
+  100% {
+    transform: rotate(30deg);
+  }
+}
+.pendulum-end {
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  height: 15px;
+  width: 15px;
+  top: 85px;
+  z-index: 10;
+  margin-left: -5px;
+}
+.volumeSvg {
+  width: 100px;
+  margin-top: 50px;
+  cursor: pointer;
+}
