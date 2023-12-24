@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksample=self.webpackChunksample||[]).push([[8611],{8611:function(e,n,s){s.r(n),s.d(n,{default:function(){return l}});var a=s(885),r=s(2791),t=s(184);function l(){var e=(0,r.useState)(""),n=(0,a.Z)(e,2),s=n[0],l=n[1];return(0,t.jsxs)("div",{children:[(0,t.jsxs)("form",{children:[(0,t.jsx)("label",{htmlFor:"name",children:" Name:"}),(0,t.jsx)("input",{onChange:function(e){l(e.target.value)},id:"name"})]}),s?(0,t.jsxs)("strong",{children:["Hello ",s]}):"Please type your name"]})}}}]);
+//# sourceMappingURL=8611.783ddd33.chunk.js.map

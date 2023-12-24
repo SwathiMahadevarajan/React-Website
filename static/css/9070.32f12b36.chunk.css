@@ -1,0 +1,2 @@
+.progressStep{align-items:center;display:flex;gap:10px}.stepIndex{border:1px solid #fff;border-radius:50%;color:#fff;font-size:10px;font-weight:500;height:25px;padding:5px;text-align:center;width:28px}.stepIndex.current{background-color:#bfe2fd;color:#473dff}.stepName{display:flex;flex-direction:column;font-size:x-small}@media screen and (max-width:768px){.progressStep{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.stepIndex{width:25px}.stepName{display:none}}
+/*# sourceMappingURL=9070.32f12b36.chunk.css.map*/

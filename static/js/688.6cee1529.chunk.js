@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksample=self.webpackChunksample||[]).push([[688],{688:function(e,n,c){c.r(n),c.d(n,{default:function(){return s}});var r=c(184);function s(e){var n=e.children;return(0,r.jsx)("div",{className:"circle",children:n})}}}]);
+//# sourceMappingURL=688.6cee1529.chunk.js.map

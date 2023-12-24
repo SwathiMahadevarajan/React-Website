@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksample=self.webpackChunksample||[]).push([[9068],{9068:function(e,r,n){function t(){var e,r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},n=r.timeInterval,t=void 0===n?10:n,c=r.progressValue,s=void 0===c?100:c,u=r.currProgress,a=r.progressBarRef,o=r.progressValueRef;e=setInterval((function(){u>=s?clearInterval(e):void 0!=a.current&&void 0!=o.current&&(a.current.style.width="".concat(++u,"%"),o.current.innerText="".concat(u,"%"))}),t)}n.r(r),n.d(r,{default:function(){return t}})}}]);
+//# sourceMappingURL=9068.95bebeed.chunk.js.map

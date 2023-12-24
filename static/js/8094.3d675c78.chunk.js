@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksample=self.webpackChunksample||[]).push([[8094],{8094:function(e,n,r){r.r(n),r.d(n,{default:function(){return c}});var l=r(2791),a=r(184);function c(){var e=l.createElement("div",{children:["Hello World"," Good Bye"],className:"container"});return(0,a.jsx)("div",{children:e})}}}]);
+//# sourceMappingURL=8094.3d675c78.chunk.js.map

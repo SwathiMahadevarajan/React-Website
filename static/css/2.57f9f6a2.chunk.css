@@ -1,0 +1,2 @@
+.personalInfo{display:flex;flex-direction:column;gap:10px}.inputLabel span{font-size:smaller;font-weight:500;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.inputLabel{display:flex;justify-content:space-between}.errorMessage{color:#ed3548;float:right}.noerror{display:none}label:has(.errorMessage) input:invalid{border:1px solid #ed3548}input{border:1px solid #d6d9e6;border-radius:5px;outline:none;padding:5px}input:focus{border:1px solid #473dff}
+/*# sourceMappingURL=2.57f9f6a2.chunk.css.map*/
